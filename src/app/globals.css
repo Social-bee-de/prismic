@@ -1,0 +1,373 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "../../node_modules/@glidejs/glide/dist/css/glide.core.css";
+
+.text-white * {
+  color: white;
+}
+
+@font-face {
+  font-family: 'apercu-bold-pro';
+  src: url('/fonts/apercu-bold-pro.eot');
+  src: url('/fonts/apercu-bold-pro.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/apercu-bold-pro.woff2') format('woff2'),
+    url('/fonts/apercu-bold-pro.woff') format('woff'),
+    url('/fonts/apercu-bold-pro.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'apercu-regular-pro';
+  src: url('/fonts/apercu-regular-pro.eot');
+  src: url('/fonts/apercu-regular-pro.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/apercu-regular-pro.woff2') format('woff2'),
+    url('/fonts/apercu-regular-pro.woff') format('woff'),
+    url('/fonts/apercu-regular-pro.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* html {
+  font-family: 'Apercu Regular',sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+} */
+
+html {
+  font-family: 'apercu-regular-pro', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #28333E
+}
+
+@media (min-width: 1024px) {
+  body {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+
+h1 {
+  font-family: 'apercu-bold-pro', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38.4px;
+  color: #121C24;
+}
+
+@media (min-width: 1024px) {
+  h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 68px;
+  }
+}
+
+h2 {
+  font-family: 'apercu-bold-pro', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.8px;
+  color: #121C24;
+}
+
+@media (min-width: 1024px) {
+  h2 {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 62.4px;
+  }
+}
+
+h3 {
+  font-family: 'apercu-bold-pro', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21.6px;
+  color: #121C24;
+}
+
+@media (min-width: 1024px) {
+  h3 {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50.4px;
+  }
+}
+
+h4 {
+  font-family: 'apercu-bold-pro', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19.2px;
+  color: #121C24;
+}
+
+@media (min-width: 1024px) {
+  h4 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38.4px;
+  }
+}
+
+h5 {
+  font-family: 'apercu-bold-pro', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16.8px;
+  color: #121C24;
+}
+
+@media (min-width: 1024px) {
+  h5 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.8px;
+  }
+}
+
+
+h6 {
+  font-family: 'apercu-bold-pro', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14.4px;
+  color: #121C24;
+}
+
+@media (min-width: 1024px) {
+  h6 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.6px;
+  }
+}
+
+
+.button-bold {
+  font-family: 'apercu-bold-pro', sans-serif;
+  font-weight: 700;
+}
+
+.font-bold {
+  font-family: 'apercu-bold-pro', sans-serif;
+  font-weight: 700;
+  color: #121C24
+}
+
+b,
+strong {
+  font-family: 'apercu-bold-pro', sans-serif;
+  font-weight: 700;
+  color: #121C24;
+}
+
+.font-normal {
+  font-family: 'apercu-regular-pro', sans-serif;
+  font-weight: 400;
+  color: #121C24
+}
+
+
+.dark body {
+  background-color: #374151;
+}
+
+.svg {
+  fill: black;
+}
+
+.dark .svg {
+  fill: white;
+}
+
+.expand-contract {
+  margin-top: -100px;
+  transition: all 700ms;
+}
+
+.expand-contract.expanded {
+  margin-top: 0px;
+}
+
+.header-background {
+  background-color: rgba(210, 210, 210, 0.3);
+}
+
+.trigger-link:hover .hidden {
+  display: block;
+}
+
+.apercu-bold {
+  font-family: 'Apercu Bold', sans-serif;
+}
+
+.apercu-medium {
+  font-family: 'Apercu Medium', sans-serif;
+}
+
+.apercu-regular {
+  font-family: 'Apercu Regular', sans-serif;
+}
+
+.gray-text {
+  color: #5d6974;
+}
+
+
+.margin033 {
+  margin-left: 33%;
+}
+
+.dark .glide__slide {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 20px;
+}
+
+.info-box {
+  margin-top: -20px
+}
+
+.scrolled {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.expanding-box input:checked~p {
+  margin-top: 1rem;
+}
+
+
+.faq-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background: white;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0px 4px 36px 0px #0000001A;
+  width: 100%;
+}
+
+.faq-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  cursor: pointer;
+}
+
+.faq-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-out, opacity 0.4s ease-out;
+  opacity: 0;
+  margin-top: 16px;
+  color: black;
+}
+
+details[open] .faq-content {
+  max-height: 500px;
+  /* Adjust this value as necessary */
+  opacity: 1;
+}
+
+details summary .icon {
+  transition: transform 0.4s ease-out;
+}
+
+details[open] summary .icon {
+  transform: rotate(45deg);
+}
+
+details {
+  width: 100%;
+}
+
+
+.checkbox input[type="checkbox"] {
+  background-color: transparent;
+}
+.checkbox input[type="checkbox"]:checked {
+  background-color: rgb(254 210 122 / var(--tw-bg-opacity));
+  accent-color: #feda7a;
+}
+
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: black;
+  margin: 0;
+
+  font: inherit;
+  color: currentColor;
+  width: 24px;
+  height: 24px;
+  border: 1px solid black;
+  transform: translateY(-0.075em);
+
+  display: grid;
+  place-content: center;
+}
+
+input[type="checkbox"]::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+  transform: scale(0);
+  transform-origin: bottom left;
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em black;
+  background-color: CanvasText;
+}
+
+input[type="checkbox"]:checked::before {
+  transform: scale(1);
+}
+
+
+input[type="checkbox"]:disabled {
+  --form-control-color: var(--form-control-disabled);
+
+  color: var(--form-control-disabled);
+  cursor: not-allowed;
+}
+
+.hidden-checkbox {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+#forRefuges-toggle:checked ~ #forRefuges-content,
+#forCompanies-toggle:checked ~ #forCompanies-content,
+#aboutUs-toggle:checked ~ #aboutUs-content {
+    max-height: 300px;
+    overflow: visible;
+}
+
+#menu-toggle:checked ~ .sidebar-menu {
+    transform: translateX(0);
+}
+
+ul {
+    transition: max-height 0.3s ease-in-out;
+}
+
+.glide__slide {
+  width: 160px!important;
+}

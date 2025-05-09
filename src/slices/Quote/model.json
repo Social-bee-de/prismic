@@ -1,0 +1,66 @@
+{
+  "id": "quote",
+  "type": "SharedSlice",
+  "name": "Quote",
+  "description": "A block quote with optional source attribution",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Default Quote",
+      "primary": {
+        "quote": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Quote",
+            "placeholder": "Quote text (default language)",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em"
+          }
+        },
+        "quote_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Quote (German)",
+            "placeholder": "Quote text in German",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em"
+          }
+        },
+        "quote_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Quote (English)",
+            "placeholder": "Quote text in English",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em"
+          }
+        },
+        "source": {
+          "type": "Text",
+          "config": {
+            "label": "Source",
+            "placeholder": "Quote source or attribution (default language)"
+          }
+        },
+        "source_de": {
+          "type": "Text",
+          "config": {
+            "label": "Source (German)",
+            "placeholder": "Quote source or attribution in German"
+          }
+        },
+        "source_en": {
+          "type": "Text",
+          "config": {
+            "label": "Source (English)",
+            "placeholder": "Quote source or attribution in English"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

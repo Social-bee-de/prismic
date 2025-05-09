@@ -1,0 +1,142 @@
+{
+  "id": "section_box",
+  "type": "SharedSlice",
+  "name": "SectionBox",
+  "description": "A reusable section container with header and title",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Default Section Box",
+      "primary": {
+        "section_id": {
+          "type": "Text",
+          "config": {
+            "label": "Section ID",
+            "placeholder": "Unique identifier for this section (for anchor links)"
+          }
+        },
+        "header": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Header",
+            "placeholder": "Section header (default language)",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading6"
+          }
+        },
+        "header_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Header (German)",
+            "placeholder": "Section header in German",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading6"
+          }
+        },
+        "header_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Header (English)",
+            "placeholder": "Section header in English",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading6"
+          }
+        },
+        "header_mobile": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Mobile Header",
+            "placeholder": "Section header for mobile devices (default language)",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading4"
+          }
+        },
+        "header_mobile_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Mobile Header (German)",
+            "placeholder": "Section header for mobile devices in German",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading4"
+          }
+        },
+        "header_mobile_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Mobile Header (English)",
+            "placeholder": "Section header for mobile devices in English",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading4"
+          }
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "Section title (default language)",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "title_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title (German)",
+            "placeholder": "Section title in German",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "title_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title (English)",
+            "placeholder": "Section title in English",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "title_href": {
+          "type": "Link",
+          "config": {
+            "label": "Title Link",
+            "placeholder": "Optional link for the title",
+            "allowTargetBlank": true
+          }
+        }
+      },
+      "items": {
+        "content": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Content",
+            "placeholder": "Section content item (default language)",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "content_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Content (German)",
+            "placeholder": "Section content item in German",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "content_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Content (English)",
+            "placeholder": "Section content item in English",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        }
+      }
+    }
+  ]
+}

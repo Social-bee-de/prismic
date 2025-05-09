@@ -1,0 +1,320 @@
+{
+  "id": "alternate_grid",
+  "type": "SharedSlice",
+  "name": "AlternateGrid",
+  "description": "A content section with an image and text in an alternate grid layout (multilingual support with shared images)",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default layout with image on the left",
+      "imageUrl": "",
+      "primary": {
+        "eyebrowHeadline": {
+          "type": "Text",
+          "config": {
+            "label": "Eyebrow Headline (Default/Fallback)",
+            "placeholder": "Default eyebrow headline text"
+          }
+        },
+        "eyebrowHeadline_en": {
+          "type": "Text",
+          "config": {
+            "label": "Eyebrow Headline (English)",
+            "placeholder": "English eyebrow headline text"
+          }
+        },
+        "eyebrowHeadline_de": {
+          "type": "Text",
+          "config": {
+            "label": "Eyebrow Headline (German)",
+            "placeholder": "German eyebrow headline text"
+          }
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title (Default/Fallback)",
+            "placeholder": "Default section title",
+            "allowTargetBlank": true,
+            "multi": "heading2"
+          }
+        },
+        "title_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title (English)",
+            "placeholder": "English section title",
+            "allowTargetBlank": true,
+            "multi": "heading2"
+          }
+        },
+        "title_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title (German)",
+            "placeholder": "German section title",
+            "allowTargetBlank": true,
+            "multi": "heading2"
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description (Default/Fallback)",
+            "placeholder": "Default section description",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink,list-item"
+          }
+        },
+        "description_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description (English)",
+            "placeholder": "English section description",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink,list-item"
+          }
+        },
+        "description_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description (German)",
+            "placeholder": "German section description",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink,list-item"
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Image (Shared)",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "items": {
+          "type": "Group",
+          "config": {
+            "label": "Items",
+            "fields": {
+              "title": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Item Title (Default/Fallback)",
+                  "placeholder": "Default item title",
+                  "allowTargetBlank": true,
+                  "multi": "heading3,heading4,heading5,heading6"
+                }
+              },
+              "title_en": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Item Title (English)",
+                  "placeholder": "English item title",
+                  "allowTargetBlank": true,
+                  "multi": "heading3,heading4,heading5,heading6"
+                }
+              },
+              "title_de": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Item Title (German)",
+                  "placeholder": "German item title",
+                  "allowTargetBlank": true,
+                  "multi": "heading3,heading4,heading5,heading6"
+                }
+              },
+              "description": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Item Description (Default/Fallback)",
+                  "placeholder": "Default item description",
+                  "allowTargetBlank": true,
+                  "multi": "paragraph,strong,em,hyperlink,list-item"
+                }
+              },
+              "description_en": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Item Description (English)",
+                  "placeholder": "English item description",
+                  "allowTargetBlank": true,
+                  "multi": "paragraph,strong,em,hyperlink,list-item"
+                }
+              },
+              "description_de": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Item Description (German)",
+                  "placeholder": "German item description",
+                  "allowTargetBlank": true,
+                  "multi": "paragraph,strong,em,hyperlink,list-item"
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "imageRight",
+      "name": "Image Right",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Layout with image on the right",
+      "imageUrl": "",
+      "primary": {
+        "eyebrowHeadline": {
+          "type": "Text",
+          "config": {
+            "label": "Eyebrow Headline (Default/Fallback)",
+            "placeholder": "Default eyebrow headline text"
+          }
+        },
+        "eyebrowHeadline_en": {
+          "type": "Text",
+          "config": {
+            "label": "Eyebrow Headline (English)",
+            "placeholder": "English eyebrow headline text"
+          }
+        },
+        "eyebrowHeadline_de": {
+          "type": "Text",
+          "config": {
+            "label": "Eyebrow Headline (German)",
+            "placeholder": "German eyebrow headline text"
+          }
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title (Default/Fallback)",
+            "placeholder": "Default section title",
+            "allowTargetBlank": true,
+            "multi": "heading2"
+          }
+        },
+        "title_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title (English)",
+            "placeholder": "English section title",
+            "allowTargetBlank": true,
+            "multi": "heading2"
+          }
+        },
+        "title_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title (German)",
+            "placeholder": "German section title",
+            "allowTargetBlank": true,
+            "multi": "heading2"
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description (Default/Fallback)",
+            "placeholder": "Default section description",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink,list-item"
+          }
+        },
+        "description_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description (English)",
+            "placeholder": "English section description",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink,list-item"
+          }
+        },
+        "description_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description (German)",
+            "placeholder": "German section description",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink,list-item"
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Image (Shared)",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "items": {
+          "type": "Group",
+          "config": {
+            "label": "Items",
+            "fields": {
+              "title": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Item Title (Default/Fallback)",
+                  "placeholder": "Default item title",
+                  "allowTargetBlank": true,
+                  "multi": "heading3,heading4,heading5,heading6"
+                }
+              },
+              "title_en": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Item Title (English)",
+                  "placeholder": "English item title",
+                  "allowTargetBlank": true,
+                  "multi": "heading3,heading4,heading5,heading6"
+                }
+              },
+              "title_de": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Item Title (German)",
+                  "placeholder": "German item title",
+                  "allowTargetBlank": true,
+                  "multi": "heading3,heading4,heading5,heading6"
+                }
+              },
+              "description": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Item Description (Default/Fallback)",
+                  "placeholder": "Default item description",
+                  "allowTargetBlank": true,
+                  "multi": "paragraph,strong,em,hyperlink,list-item"
+                }
+              },
+              "description_en": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Item Description (English)",
+                  "placeholder": "English item description",
+                  "allowTargetBlank": true,
+                  "multi": "paragraph,strong,em,hyperlink,list-item"
+                }
+              },
+              "description_de": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Item Description (German)",
+                  "placeholder": "German item description",
+                  "allowTargetBlank": true,
+                  "multi": "paragraph,strong,em,hyperlink,list-item"
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "id": "question",
+  "type": "SharedSlice",
+  "name": "Question",
+  "description": "A section displaying a collection of frequently asked questions",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Default FAQ Section",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "Section title (default language)",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "title_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title (German)",
+            "placeholder": "Section title in German",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "title_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title (English)",
+            "placeholder": "Section title in English",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "Section description (default language)",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item"
+          }
+        },
+        "description_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description (German)",
+            "placeholder": "Section description in German",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item"
+          }
+        },
+        "description_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description (English)",
+            "placeholder": "Section description in English",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item"
+          }
+        },
+        "fetch_questions": {
+          "type": "Boolean",
+          "config": {
+            "label": "Fetch Questions",
+            "placeholder": "Fetch questions from a separate content type instead of embedding them"
+          }
+        },
+        "faq_content_type": {
+          "type": "Text",
+          "config": {
+            "label": "FAQ Content Type",
+            "placeholder": "The Prismic custom type ID to fetch FAQ questions from (e.g. 'faq_page')"
+          }
+        }
+      },
+      "items": {
+        "question": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Question",
+            "placeholder": "Question text (default language)",
+            "allowTargetBlank": true,
+            "single": "heading4"
+          }
+        },
+        "question_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Question (German)",
+            "placeholder": "Question text in German",
+            "allowTargetBlank": true,
+            "single": "heading4"
+          }
+        },
+        "question_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Question (English)",
+            "placeholder": "Question text in English",
+            "allowTargetBlank": true,
+            "single": "heading4"
+          }
+        },
+        "answer": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Answer",
+            "placeholder": "Answer text (default language)",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item"
+          }
+        },
+        "answer_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Answer (German)",
+            "placeholder": "Answer text in German",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item"
+          }
+        },
+        "answer_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Answer (English)",
+            "placeholder": "Answer text in English",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item"
+          }
+        }
+      }
+    }
+  ]
+}

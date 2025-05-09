@@ -1,0 +1,233 @@
+{
+  "id": "page",
+  "label": "Page",
+  "format": "page",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "UID",
+          "placeholder": ""
+        }
+      },
+      "title": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Title",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "heading1"
+        }
+      },
+      "parent": {
+        "type": "Link",
+        "config": {
+          "label": "Parent",
+          "select": "document",
+          "customtypes": ["page"]
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "company_carousel": {
+              "type": "SharedSlice"
+            },
+            "question": {
+              "type": "SharedSlice"
+            },
+            "faq_section": {
+              "type": "SharedSlice"
+            },
+            "seo": {
+              "type": "SharedSlice"
+            },
+            "customer_logos": {
+              "type": "SharedSlice"
+            },
+            "text_with_image": {
+              "type": "SharedSlice"
+            },
+            "text": {
+              "type": "SharedSlice"
+            },
+            "talents_numbers": {
+              "type": "SharedSlice"
+            },
+            "quote": {
+              "type": "SharedSlice"
+            },
+            "section_box": {
+              "type": "SharedSlice"
+            },
+            "talent_section": {
+              "type": "SharedSlice"
+            },
+            "process_section": {
+              "type": "SharedSlice"
+            },
+            "image_with_text_section": {
+              "type": "SharedSlice"
+            },
+            "image": {
+              "type": "SharedSlice"
+            },
+            "image_cards": {
+              "type": "SharedSlice"
+            },
+            "alternate_grid": {
+              "type": "SharedSlice"
+            },
+            "hero_section": {
+              "type": "SharedSlice"
+            },
+            "hero": {
+              "type": "SharedSlice"
+            },
+            "feedback_section": {
+              "type": "SharedSlice"
+            },
+            "diversity_section": {
+              "type": "SharedSlice"
+            },
+            "chance_section": {
+              "type": "SharedSlice"
+            },
+            "call_to_action": {
+              "type": "SharedSlice"
+            },
+            "boxes_list": {
+              "type": "SharedSlice"
+            },
+            "text_with_image_inversed": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    },
+    "SEO & Metadata": {
+      "meta_title": {
+        "type": "Text",
+        "config": {
+          "label": "Meta Title",
+          "placeholder": "A title of the page used for social media and search engines"
+        }
+      },
+      "meta_title_de": {
+        "type": "Text",
+        "config": {
+          "label": "Meta Title (German)",
+          "placeholder": "A title of the page in German used for social media and search engines"
+        }
+      },
+      "meta_title_en": {
+        "type": "Text",
+        "config": {
+          "label": "Meta Title (English)",
+          "placeholder": "A title of the page in English used for social media and search engines"
+        }
+      },
+      "meta_description": {
+        "type": "Text",
+        "config": {
+          "label": "Meta Description",
+          "placeholder": "A brief summary of the page"
+        }
+      },
+      "meta_description_de": {
+        "type": "Text",
+        "config": {
+          "label": "Meta Description (German)",
+          "placeholder": "A brief summary of the page in German"
+        }
+      },
+      "meta_description_en": {
+        "type": "Text",
+        "config": {
+          "label": "Meta Description (English)",
+          "placeholder": "A brief summary of the page in English"
+        }
+      },
+      "meta_keywords": {
+        "type": "Text",
+        "config": {
+          "label": "Meta Keywords",
+          "placeholder": "Comma-separated keywords (optional)"
+        }
+      },
+      "meta_keywords_de": {
+        "type": "Text",
+        "config": {
+          "label": "Meta Keywords (German)",
+          "placeholder": "Comma-separated keywords in German (optional)"
+        }
+      },
+      "meta_keywords_en": {
+        "type": "Text",
+        "config": {
+          "label": "Meta Keywords (English)",
+          "placeholder": "Comma-separated keywords in English (optional)"
+        }
+      },
+      "meta_image": {
+        "type": "Image",
+        "config": {
+          "label": "Meta Image",
+          "constraint": {
+            "width": 1200,
+            "height": 630
+          },
+          "thumbnails": []
+        }
+      },
+      "meta_image_alt": {
+        "type": "Text",
+        "config": {
+          "label": "Meta Image Alt",
+          "placeholder": "Alt text for the meta image"
+        }
+      },
+      "meta_image_alt_de": {
+        "type": "Text",
+        "config": {
+          "label": "Meta Image Alt (German)",
+          "placeholder": "Alt text for the meta image in German"
+        }
+      },
+      "meta_image_alt_en": {
+        "type": "Text",
+        "config": {
+          "label": "Meta Image Alt (English)",
+          "placeholder": "Alt text for the meta image in English"
+        }
+      },
+      "canonical_url": {
+        "type": "Text",
+        "config": {
+          "label": "Canonical URL",
+          "placeholder": "Optional: override the default canonical URL"
+        }
+      },
+      "no_index": {
+        "type": "Boolean",
+        "config": {
+          "label": "No Index",
+          "default_value": false
+        }
+      },
+      "no_follow": {
+        "type": "Boolean",
+        "config": {
+          "label": "No Follow",
+          "default_value": false
+        }
+      }
+    }
+  }
+}

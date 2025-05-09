@@ -1,0 +1,314 @@
+{
+  "id": "hero",
+  "type": "SharedSlice",
+  "name": "Hero",
+  "description": "Hero section for the homepage with multilingual support (shared images)",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default hero section with multilingual support",
+      "imageUrl": "",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title (Default/Fallback)",
+            "placeholder": "Default main hero title",
+            "allowTargetBlank": true,
+            "multi": "heading1"
+          }
+        },
+        "title_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title (English)",
+            "placeholder": "English main hero title",
+            "allowTargetBlank": true,
+            "multi": "heading1"
+          }
+        },
+        "title_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title (German)",
+            "placeholder": "German main hero title",
+            "allowTargetBlank": true,
+            "multi": "heading1"
+          }
+        },
+        "mobile_title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Mobile Title (Default/Fallback)",
+            "placeholder": "Default mobile title",
+            "allowTargetBlank": true,
+            "multi": "heading1"
+          }
+        },
+        "mobile_title_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Mobile Title (English)",
+            "placeholder": "English mobile title",
+            "allowTargetBlank": true,
+            "multi": "heading1"
+          }
+        },
+        "mobile_title_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Mobile Title (German)",
+            "placeholder": "German mobile title",
+            "allowTargetBlank": true,
+            "multi": "heading1"
+          }
+        },
+        "mobile_description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Mobile Description (Default/Fallback)",
+            "placeholder": "Default mobile description",
+            "allowTargetBlank": true,
+            "multi": "paragraph"
+          }
+        },
+        "mobile_description_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Mobile Description (English)",
+            "placeholder": "English mobile description",
+            "allowTargetBlank": true,
+            "multi": "paragraph"
+          }
+        },
+        "mobile_description_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Mobile Description (German)",
+            "placeholder": "German mobile description",
+            "allowTargetBlank": true,
+            "multi": "paragraph"
+          }
+        },
+        "header_man_image": {
+          "type": "Image",
+          "config": {
+            "label": "Header Man Image (Shared)",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "header_woman_image": {
+          "type": "Image",
+          "config": {
+            "label": "Header Woman Image (Shared)",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "find_jobs_title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Find Jobs Title (Default/Fallback)",
+            "placeholder": "Default find jobs title",
+            "allowTargetBlank": true,
+            "multi": "heading2"
+          }
+        },
+        "find_jobs_title_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Find Jobs Title (English)",
+            "placeholder": "English find jobs title",
+            "allowTargetBlank": true,
+            "multi": "heading2"
+          }
+        },
+        "find_jobs_title_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Find Jobs Title (German)",
+            "placeholder": "German find jobs title",
+            "allowTargetBlank": true,
+            "multi": "heading2"
+          }
+        },
+        "find_jobs_description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Find Jobs Description (Default/Fallback)",
+            "placeholder": "Default description for finding jobs",
+            "allowTargetBlank": true,
+            "multi": "paragraph"
+          }
+        },
+        "find_jobs_description_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Find Jobs Description (English)",
+            "placeholder": "English description for finding jobs",
+            "allowTargetBlank": true,
+            "multi": "paragraph"
+          }
+        },
+        "find_jobs_description_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Find Jobs Description (German)",
+            "placeholder": "German description for finding jobs",
+            "allowTargetBlank": true,
+            "multi": "paragraph"
+          }
+        },
+        "find_jobs_button_text": {
+          "type": "Text",
+          "config": {
+            "label": "Find Jobs Button Text (Default/Fallback)",
+            "placeholder": "Default button text"
+          }
+        },
+        "find_jobs_button_text_en": {
+          "type": "Text",
+          "config": {
+            "label": "Find Jobs Button Text (English)",
+            "placeholder": "English button text"
+          }
+        },
+        "find_jobs_button_text_de": {
+          "type": "Text",
+          "config": {
+            "label": "Find Jobs Button Text (German)",
+            "placeholder": "German button text"
+          }
+        },
+        "find_jobs_button_link": {
+          "type": "Link",
+          "config": {
+            "label": "Find Jobs Button Link (Default/Fallback)",
+            "placeholder": "Default link for the button",
+            "allowTargetBlank": true
+          }
+        },
+        "find_jobs_button_link_en": {
+          "type": "Link",
+          "config": {
+            "label": "Find Jobs Button Link (English)",
+            "placeholder": "English link for the button",
+            "allowTargetBlank": true
+          }
+        },
+        "find_jobs_button_link_de": {
+          "type": "Link",
+          "config": {
+            "label": "Find Jobs Button Link (German)",
+            "placeholder": "German link for the button",
+            "allowTargetBlank": true
+          }
+        },
+        "hire_talent_title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Hire Talent Title (Default/Fallback)",
+            "placeholder": "Default hire talent title",
+            "allowTargetBlank": true,
+            "multi": "heading2"
+          }
+        },
+        "hire_talent_title_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Hire Talent Title (English)",
+            "placeholder": "English hire talent title",
+            "allowTargetBlank": true,
+            "multi": "heading2"
+          }
+        },
+        "hire_talent_title_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Hire Talent Title (German)",
+            "placeholder": "German hire talent title",
+            "allowTargetBlank": true,
+            "multi": "heading2"
+          }
+        },
+        "hire_talent_description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Hire Talent Description (Default/Fallback)",
+            "placeholder": "Default description for hiring talent",
+            "allowTargetBlank": true,
+            "multi": "paragraph"
+          }
+        },
+        "hire_talent_description_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Hire Talent Description (English)",
+            "placeholder": "English description for hiring talent",
+            "allowTargetBlank": true,
+            "multi": "paragraph"
+          }
+        },
+        "hire_talent_description_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Hire Talent Description (German)",
+            "placeholder": "German description for hiring talent",
+            "allowTargetBlank": true,
+            "multi": "paragraph"
+          }
+        },
+        "hire_talent_button_text": {
+          "type": "Text",
+          "config": {
+            "label": "Hire Talent Button Text (Default/Fallback)",
+            "placeholder": "Default button text"
+          }
+        },
+        "hire_talent_button_text_en": {
+          "type": "Text",
+          "config": {
+            "label": "Hire Talent Button Text (English)",
+            "placeholder": "English button text"
+          }
+        },
+        "hire_talent_button_text_de": {
+          "type": "Text",
+          "config": {
+            "label": "Hire Talent Button Text (German)",
+            "placeholder": "German button text"
+          }
+        },
+        "hire_talent_button_link": {
+          "type": "Link",
+          "config": {
+            "label": "Hire Talent Button Link (Default/Fallback)",
+            "placeholder": "Default link for the button",
+            "allowTargetBlank": true
+          }
+        },
+        "hire_talent_button_link_en": {
+          "type": "Link",
+          "config": {
+            "label": "Hire Talent Button Link (English)",
+            "placeholder": "English link for the button",
+            "allowTargetBlank": true
+          }
+        },
+        "hire_talent_button_link_de": {
+          "type": "Link",
+          "config": {
+            "label": "Hire Talent Button Link (German)",
+            "placeholder": "German link for the button",
+            "allowTargetBlank": true
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

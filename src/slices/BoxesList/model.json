@@ -1,0 +1,68 @@
+{
+  "id": "boxes_list",
+  "type": "SharedSlice",
+  "name": "BoxesList",
+  "description": "A list of colored boxes containing text (multilingual support)",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default boxes list with multilingual support",
+      "imageUrl": "",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title (Default/Fallback)",
+            "placeholder": "Default title for the boxes list",
+            "allowTargetBlank": true,
+            "multi": "heading3"
+          }
+        },
+        "title_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title (English)",
+            "placeholder": "English title for the boxes list",
+            "allowTargetBlank": true,
+            "multi": "heading3"
+          }
+        },
+        "title_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title (German)",
+            "placeholder": "German title for the boxes list",
+            "allowTargetBlank": true,
+            "multi": "heading3"
+          }
+        }
+      },
+      "items": {
+        "box_text": {
+          "type": "Text",
+          "config": {
+            "label": "Box Text (Default/Fallback)",
+            "placeholder": "Default text to display in the box"
+          }
+        },
+        "box_text_en": {
+          "type": "Text",
+          "config": {
+            "label": "Box Text (English)",
+            "placeholder": "English text to display in the box"
+          }
+        },
+        "box_text_de": {
+          "type": "Text",
+          "config": {
+            "label": "Box Text (German)",
+            "placeholder": "German text to display in the box"
+          }
+        }
+      }
+    }
+  ]
+}

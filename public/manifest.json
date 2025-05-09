@@ -1,0 +1,17 @@
+{
+  "name": "SocialBee",
+  "short_name": "SocialBee",
+  "theme_color": "#ffff00",
+  "background_color": "#ffff00",
+  "display": "browser",
+  "orientation": "any",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "id": "seo",
+  "type": "SharedSlice",
+  "name": "SEO",
+  "description": "Customize page SEO and social sharing settings",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default SEO configuration",
+      "imageUrl": "",
+      "primary": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "SEO Title",
+            "placeholder": "Enter the SEO title (shown in search engines)",
+            "description": "Keep between 50-60 characters for best results"
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Meta Description",
+            "placeholder": "Enter the meta description",
+            "description": "Keep between 150-160 characters for best results",
+            "single": "paragraph",
+            "allowTargetBlank": false
+          }
+        },
+        "canonical_url": {
+          "type": "Text",
+          "config": {
+            "label": "Canonical URL",
+            "placeholder": "https://www.example.com/page",
+            "description": "Optional: Set a canonical URL if this page is a duplicate of another"
+          }
+        },
+        "indexing": {
+          "type": "Select",
+          "config": {
+            "label": "Search Engine Indexing",
+            "options": ["Allow indexing", "Prevent indexing"],
+            "default_value": "Allow indexing",
+            "description": "Control whether search engines should index this page"
+          }
+        },
+        "og_title": {
+          "type": "Text",
+          "config": {
+            "label": "OG Title",
+            "placeholder": "Enter the social sharing title",
+            "description": "Title shown when shared on social media (Facebook, LinkedIn, etc.)"
+          }
+        },
+        "og_description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "OG Description",
+            "placeholder": "Enter the social sharing description",
+            "description": "Description shown when shared on social media",
+            "single": "paragraph",
+            "allowTargetBlank": false
+          }
+        },
+        "og_image": {
+          "type": "Image",
+          "config": {
+            "label": "OG Image",
+            "constraint": {
+              "width": 1200,
+              "height": 630
+            },
+            "description": "Recommended size: 1200x630 pixels for optimal social sharing"
+          }
+        },
+        "og_type": {
+          "type": "Select",
+          "config": {
+            "label": "OG Type",
+            "options": ["website", "article", "product", "profile"],
+            "default_value": "website",
+            "description": "The type of content you're sharing"
+          }
+        },
+        "og_locale": {
+          "type": "Text",
+          "config": {
+            "label": "OG Locale",
+            "placeholder": "en_US",
+            "description": "The locale of your content (e.g., en_US, fr_FR)"
+          }
+        },
+        "twitter_card": {
+          "type": "Select",
+          "config": {
+            "label": "Twitter Card Type",
+            "options": ["summary", "summary_large_image", "app", "player"],
+            "default_value": "summary_large_image",
+            "description": "Type of Twitter card to display"
+          }
+        },
+        "twitter_title": {
+          "type": "Text",
+          "config": {
+            "label": "Twitter Title",
+            "placeholder": "Enter the Twitter title",
+            "description": "Optional: Set a specific title for Twitter (defaults to OG Title if empty)"
+          }
+        },
+        "twitter_description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Twitter Description",
+            "placeholder": "Enter the Twitter description",
+            "description": "Optional: Set a specific description for Twitter (defaults to OG Description if empty)",
+            "single": "paragraph",
+            "allowTargetBlank": false
+          }
+        },
+        "twitter_image": {
+          "type": "Image",
+          "config": {
+            "label": "Twitter Image",
+            "constraint": {
+              "width": 1200,
+              "height": 675
+            },
+            "description": "Optional: Set a specific image for Twitter (defaults to OG Image if empty)"
+          }
+        },
+        "twitter_handle": {
+          "type": "Text",
+          "config": {
+            "label": "Twitter Site Handle",
+            "placeholder": "@yourbrand",
+            "description": "Your brand's Twitter handle (include the @ symbol)"
+          }
+        },
+        "twitter_creator": {
+          "type": "Text",
+          "config": {
+            "label": "Twitter Creator Handle",
+            "placeholder": "@authorname",
+            "description": "Optional: Twitter handle of content creator/author"
+          }
+        },
+        "keywords": {
+          "type": "Text",
+          "config": {
+            "label": "Meta Keywords",
+            "placeholder": "keyword1, keyword2, keyword3",
+            "description": "Comma-separated list of keywords (less important for modern SEO)"
+          }
+        },
+        "robots": {
+          "type": "Text",
+          "config": {
+            "label": "Robots Directives",
+            "placeholder": "noindex, nofollow, noarchive",
+            "description": "Optional: Additional robots directives (advanced)"
+          }
+        }
+      },
+      "items": {
+        "meta_name": {
+          "type": "Text",
+          "config": {
+            "label": "Meta Name/Property",
+            "placeholder": "e.g., article:author, og:site_name",
+            "description": "The name or property attribute of the meta tag"
+          }
+        },
+        "meta_content": {
+          "type": "Text",
+          "config": {
+            "label": "Meta Content",
+            "placeholder": "The content of the meta tag",
+            "description": "The value for this meta tag"
+          }
+        }
+      }
+    }
+  ]
+}

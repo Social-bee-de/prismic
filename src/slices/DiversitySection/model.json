@@ -1,0 +1,261 @@
+{
+  "id": "diversity_section",
+  "type": "SharedSlice",
+  "name": "DiversitySection",
+  "description": "A section displaying diversity information with shared images and multilingual text",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default diversity section with shared images",
+      "imageUrl": "",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title (Default/Fallback)",
+            "placeholder": "Default section title",
+            "allowTargetBlank": true,
+            "multi": "heading2"
+          }
+        },
+        "title_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title (English)",
+            "placeholder": "English section title",
+            "allowTargetBlank": true,
+            "multi": "heading2"
+          }
+        },
+        "title_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title (German)",
+            "placeholder": "German section title",
+            "allowTargetBlank": true,
+            "multi": "heading2"
+          }
+        },
+        "header": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Header (Default/Fallback)",
+            "placeholder": "Default section header",
+            "allowTargetBlank": true,
+            "multi": "heading6"
+          }
+        },
+        "header_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Header (English)",
+            "placeholder": "English section header",
+            "allowTargetBlank": true,
+            "multi": "heading6"
+          }
+        },
+        "header_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Header (German)",
+            "placeholder": "German section header",
+            "allowTargetBlank": true,
+            "multi": "heading6"
+          }
+        },
+        "section_id": {
+          "type": "Text",
+          "config": {
+            "label": "Section ID",
+            "placeholder": "HTML ID for the section (default: diversity-section)"
+          }
+        },
+        "boxes_title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Boxes Title (Default/Fallback)",
+            "placeholder": "Default title for the boxes list section",
+            "allowTargetBlank": true,
+            "multi": "heading3"
+          }
+        },
+        "boxes_title_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Boxes Title (English)",
+            "placeholder": "English title for the boxes list section",
+            "allowTargetBlank": true,
+            "multi": "heading3"
+          }
+        },
+        "boxes_title_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Boxes Title (German)",
+            "placeholder": "German title for the boxes list section",
+            "allowTargetBlank": true,
+            "multi": "heading3"
+          }
+        },
+        "boxes": {
+          "type": "Text",
+          "config": {
+            "label": "Boxes (Default/Fallback)",
+            "placeholder": "Default comma-separated list of box texts",
+            "description": "Example: Box 1, Box 2, Box 3"
+          }
+        },
+        "boxes_en": {
+          "type": "Text",
+          "config": {
+            "label": "Boxes (English)",
+            "placeholder": "English comma-separated list of box texts",
+            "description": "Example: Box 1, Box 2, Box 3"
+          }
+        },
+        "boxes_de": {
+          "type": "Text",
+          "config": {
+            "label": "Boxes (German)",
+            "placeholder": "German comma-separated list of box texts",
+            "description": "Example: Box 1, Box 2, Box 3"
+          }
+        },
+        "description_sections": {
+          "type": "Group",
+          "config": {
+            "label": "Description Sections (Default/Fallback)",
+            "fields": {
+              "description_title": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Title (Default/Fallback)",
+                  "placeholder": "Default section title",
+                  "allowTargetBlank": true,
+                  "multi": "heading4"
+                }
+              },
+              "description_title_en": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Title (English)",
+                  "placeholder": "English section title",
+                  "allowTargetBlank": true,
+                  "multi": "heading4"
+                }
+              },
+              "description_title_de": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Title (German)",
+                  "placeholder": "German section title",
+                  "allowTargetBlank": true,
+                  "multi": "heading4"
+                }
+              },
+              "description_text": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Description (Default/Fallback)",
+                  "placeholder": "Default section description",
+                  "allowTargetBlank": true,
+                  "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item"
+                }
+              },
+              "description_text_en": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Description (English)",
+                  "placeholder": "English section description",
+                  "allowTargetBlank": true,
+                  "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item"
+                }
+              },
+              "description_text_de": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Description (German)",
+                  "placeholder": "German section description",
+                  "allowTargetBlank": true,
+                  "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item"
+                }
+              }
+            }
+          }
+        },
+        "description_sections_en": {
+          "type": "Group",
+          "config": {
+            "label": "Description Sections (English)",
+            "fields": {
+              "description_title": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "English section title",
+                  "allowTargetBlank": true,
+                  "multi": "heading4"
+                }
+              },
+              "description_text": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Description",
+                  "placeholder": "English section description",
+                  "allowTargetBlank": true,
+                  "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item"
+                }
+              }
+            }
+          }
+        },
+        "description_sections_de": {
+          "type": "Group",
+          "config": {
+            "label": "Description Sections (German)",
+            "fields": {
+              "description_title": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "German section title",
+                  "allowTargetBlank": true,
+                  "multi": "heading4"
+                }
+              },
+              "description_text": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Description",
+                  "placeholder": "German section description",
+                  "allowTargetBlank": true,
+                  "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item"
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Image (Shared)",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "image_alt": {
+          "type": "Text",
+          "config": {
+            "label": "Image Alt Text",
+            "placeholder": "Alternative text for the image"
+          }
+        }
+      }
+    }
+  ]
+}

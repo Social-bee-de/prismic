@@ -1,0 +1,229 @@
+{
+  "id": "text_with_image",
+  "type": "SharedSlice",
+  "name": "TextWithImage",
+  "description": "A section with text content alongside an image",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Default text with image",
+      "primary": {
+        "header": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Header",
+            "placeholder": "Section header (default language)",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "header_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Header (German)",
+            "placeholder": "Section header in German",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "header_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Header (English)",
+            "placeholder": "Section header in English",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Text",
+            "placeholder": "Main text content (default language)",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item"
+          }
+        },
+        "text_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Text (German)",
+            "placeholder": "Main text content in German",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item"
+          }
+        },
+        "text_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Text (English)",
+            "placeholder": "Main text content in English",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item"
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Image",
+            "constraint": {
+              "width": 900,
+              "height": 600
+            },
+            "thumbnails": []
+          }
+        },
+        "image_alt": {
+          "type": "Text",
+          "config": {
+            "label": "Image Alt Text",
+            "placeholder": "Alternative text for the image (default language)"
+          }
+        },
+        "image_alt_de": {
+          "type": "Text",
+          "config": {
+            "label": "Image Alt Text (German)",
+            "placeholder": "Alternative text for the image in German"
+          }
+        },
+        "image_alt_en": {
+          "type": "Text",
+          "config": {
+            "label": "Image Alt Text (English)",
+            "placeholder": "Alternative text for the image in English"
+          }
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "withButton",
+      "name": "With Button",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Text with image and a call-to-action button",
+      "primary": {
+        "header": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Header",
+            "placeholder": "Section header (default language)",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "header_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Header (German)",
+            "placeholder": "Section header in German",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "header_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Header (English)",
+            "placeholder": "Section header in English",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Text",
+            "placeholder": "Main text content (default language)",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item"
+          }
+        },
+        "text_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Text (German)",
+            "placeholder": "Main text content in German",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item"
+          }
+        },
+        "text_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Text (English)",
+            "placeholder": "Main text content in English",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item"
+          }
+        },
+        "buttonLink": {
+          "type": "Link",
+          "config": {
+            "label": "Button Link",
+            "placeholder": "Link for the call-to-action button",
+            "allowTargetBlank": true
+          }
+        },
+        "buttonText": {
+          "type": "Text",
+          "config": {
+            "label": "Button Text",
+            "placeholder": "Text for the button (default language, defaults to 'Learn more')"
+          }
+        },
+        "buttonText_de": {
+          "type": "Text",
+          "config": {
+            "label": "Button Text (German)",
+            "placeholder": "Text for the button in German (defaults to 'Mehr erfahren')"
+          }
+        },
+        "buttonText_en": {
+          "type": "Text",
+          "config": {
+            "label": "Button Text (English)",
+            "placeholder": "Text for the button in English (defaults to 'Learn more')"
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Image",
+            "constraint": {
+              "width": 900,
+              "height": 600
+            },
+            "thumbnails": []
+          }
+        },
+        "image_alt": {
+          "type": "Text",
+          "config": {
+            "label": "Image Alt Text",
+            "placeholder": "Alternative text for the image (default language)"
+          }
+        },
+        "image_alt_de": {
+          "type": "Text",
+          "config": {
+            "label": "Image Alt Text (German)",
+            "placeholder": "Alternative text for the image in German"
+          }
+        },
+        "image_alt_en": {
+          "type": "Text",
+          "config": {
+            "label": "Image Alt Text (English)",
+            "placeholder": "Alternative text for the image in English"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

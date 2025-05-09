@@ -1,0 +1,134 @@
+{
+  "id": "image_cards",
+  "type": "SharedSlice",
+  "name": "ImageCards",
+  "description": "A grid of cards with images and text (multilingual support with shared images)",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default image cards layout with shared images",
+      "imageUrl": "",
+      "primary": {
+        "heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Heading (Default/Fallback)",
+            "placeholder": "Default section heading",
+            "allowTargetBlank": true,
+            "multi": "heading2"
+          }
+        },
+        "heading_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Heading (English)",
+            "placeholder": "English section heading",
+            "allowTargetBlank": true,
+            "multi": "heading2"
+          }
+        },
+        "heading_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Heading (German)",
+            "placeholder": "German section heading",
+            "allowTargetBlank": true,
+            "multi": "heading2"
+          }
+        },
+        "cards": {
+          "type": "Group",
+          "config": {
+            "label": "Cards",
+            "fields": {
+              "image": {
+                "type": "Image",
+                "config": {
+                  "label": "Image (Shared)",
+                  "constraint": {},
+                  "thumbnails": []
+                }
+              },
+              "text": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Text (Default/Fallback)",
+                  "placeholder": "Default card text",
+                  "allowTargetBlank": true,
+                  "multi": "paragraph,heading3,heading4,heading5,heading6,strong,em,hyperlink,list-item,o-list-item"
+                }
+              },
+              "text_en": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Text (English)",
+                  "placeholder": "English card text",
+                  "allowTargetBlank": true,
+                  "multi": "paragraph,heading3,heading4,heading5,heading6,strong,em,hyperlink,list-item,o-list-item"
+                }
+              },
+              "text_de": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Text (German)",
+                  "placeholder": "German card text",
+                  "allowTargetBlank": true,
+                  "multi": "paragraph,heading3,heading4,heading5,heading6,strong,em,hyperlink,list-item,o-list-item"
+                }
+              },
+              "buttonText": {
+                "type": "Text",
+                "config": {
+                  "label": "Button Text (Default/Fallback)",
+                  "placeholder": "Default button text"
+                }
+              },
+              "buttonText_en": {
+                "type": "Text",
+                "config": {
+                  "label": "Button Text (English)",
+                  "placeholder": "English button text"
+                }
+              },
+              "buttonText_de": {
+                "type": "Text",
+                "config": {
+                  "label": "Button Text (German)",
+                  "placeholder": "German button text"
+                }
+              },
+              "buttonLink": {
+                "type": "Link",
+                "config": {
+                  "label": "Button Link (Default/Fallback)",
+                  "placeholder": "Default link for the button",
+                  "allowTargetBlank": true
+                }
+              },
+              "buttonLink_en": {
+                "type": "Link",
+                "config": {
+                  "label": "Button Link (English)",
+                  "placeholder": "English link for the button",
+                  "allowTargetBlank": true
+                }
+              },
+              "buttonLink_de": {
+                "type": "Link",
+                "config": {
+                  "label": "Button Link (German)",
+                  "placeholder": "German link for the button",
+                  "allowTargetBlank": true
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

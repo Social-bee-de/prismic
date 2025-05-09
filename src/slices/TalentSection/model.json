@@ -1,0 +1,129 @@
+{
+  "id": "talent_section",
+  "type": "SharedSlice",
+  "name": "TalentSection",
+  "description": "Talent section with statistics and information about talents",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default Talent Section",
+      "imageUrl": "",
+      "primary": {
+        "first_title": {
+          "type": "Text",
+          "config": {
+            "label": "First Statistic",
+            "placeholder": "First statistic (e.g. 200+)"
+          }
+        },
+        "second_title": {
+          "type": "Text",
+          "config": {
+            "label": "Second Statistic",
+            "placeholder": "Second statistic (e.g. 92%)"
+          }
+        },
+        "third_title": {
+          "type": "Text",
+          "config": {
+            "label": "Third Statistic",
+            "placeholder": "Third statistic (e.g. 1300+)"
+          }
+        },
+        "info1": {
+          "type": "StructuredText",
+          "config": {
+            "label": "First Info (Default/Fallback)",
+            "placeholder": "Information for first statistic",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink"
+          }
+        },
+        "info1_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "First Info (English)",
+            "placeholder": "Information for first statistic in English",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink"
+          }
+        },
+        "info1_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "First Info (German)",
+            "placeholder": "Information for first statistic in German",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink"
+          }
+        },
+        "info2": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Second Info (Default/Fallback)",
+            "placeholder": "Information for second statistic",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink"
+          }
+        },
+        "info2_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Second Info (English)",
+            "placeholder": "Information for second statistic in English",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink"
+          }
+        },
+        "info2_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Second Info (German)",
+            "placeholder": "Information for second statistic in German",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink"
+          }
+        },
+        "info3": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Third Info (Default/Fallback)",
+            "placeholder": "Information for third statistic",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink"
+          }
+        },
+        "info3_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Third Info (English)",
+            "placeholder": "Information for third statistic in English",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink"
+          }
+        },
+        "info3_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Third Info (German)",
+            "placeholder": "Information for third statistic in German",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink"
+          }
+        },
+        "white_brush_image": {
+          "type": "Image",
+          "config": {
+            "label": "White Brush Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

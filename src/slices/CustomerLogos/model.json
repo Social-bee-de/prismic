@@ -1,0 +1,104 @@
+{
+  "id": "customer_logos",
+  "type": "SharedSlice",
+  "name": "CustomerLogos",
+  "description": "A carousel displaying customer or company logos (with multilingual support and shared images)",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default customer logo carousel with multilingual text and shared images",
+      "imageUrl": "",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title (Default/Fallback)",
+            "placeholder": "Default carousel section title (rich text)",
+            "allowTargetBlank": true,
+            "multi": "heading2"
+          }
+        },
+        "title_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title (English)",
+            "placeholder": "English carousel section title (rich text)",
+            "allowTargetBlank": true,
+            "multi": "heading2"
+          }
+        },
+        "title_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title (German)",
+            "placeholder": "German carousel section title (rich text)",
+            "allowTargetBlank": true,
+            "multi": "heading2"
+          }
+        },
+        "title_text": {
+          "type": "Text",
+          "config": {
+            "label": "Title Text (Default/Fallback)",
+            "placeholder": "Default plain text title (if needed for component props)"
+          }
+        },
+        "title_text_en": {
+          "type": "Text",
+          "config": {
+            "label": "Title Text (English)",
+            "placeholder": "English plain text title"
+          }
+        },
+        "title_text_de": {
+          "type": "Text",
+          "config": {
+            "label": "Title Text (German)",
+            "placeholder": "German plain text title"
+          }
+        },
+        "class_string": {
+          "type": "Text",
+          "config": {
+            "label": "CSS Class String",
+            "placeholder": "Optional CSS classes to apply"
+          }
+        }
+      },
+      "items": {
+        "company_logo": {
+          "type": "Image",
+          "config": {
+            "label": "Company Logo (Shared)",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "company_name": {
+          "type": "Text",
+          "config": {
+            "label": "Company Name (Default/Fallback)",
+            "placeholder": "Default name of the company (used as alt text)"
+          }
+        },
+        "company_name_en": {
+          "type": "Text",
+          "config": {
+            "label": "Company Name (English)",
+            "placeholder": "English name of the company"
+          }
+        },
+        "company_name_de": {
+          "type": "Text",
+          "config": {
+            "label": "Company Name (German)",
+            "placeholder": "German name of the company"
+          }
+        }
+      }
+    }
+  ]
+}

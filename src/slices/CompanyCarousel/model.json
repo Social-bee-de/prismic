@@ -1,0 +1,64 @@
+{
+  "id": "company_carousel",
+  "type": "SharedSlice",
+  "name": "CompanyCarousel",
+  "description": "Carousel displaying company logos with customizable title",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default Company Carousel",
+      "imageUrl": "",
+      "primary": {
+        "header": {
+          "type": "Text",
+          "config": {
+            "label": "Header (Default/Fallback)",
+            "placeholder": "Default carousel header"
+          }
+        },
+        "header_en": {
+          "type": "Text",
+          "config": {
+            "label": "Header (English)",
+            "placeholder": "English carousel header"
+          }
+        },
+        "header_de": {
+          "type": "Text",
+          "config": {
+            "label": "Header (German)",
+            "placeholder": "German carousel header"
+          }
+        },
+        "carousel_class": {
+          "type": "Text",
+          "config": {
+            "label": "Carousel CSS Class",
+            "placeholder": "CSS class for the carousel (e.g. glide1)",
+            "default": "glide1"
+          }
+        }
+      },
+      "items": {
+        "company_logo": {
+          "type": "Image",
+          "config": {
+            "label": "Company Logo",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "company_name": {
+          "type": "Text",
+          "config": {
+            "label": "Company Name (alt text)",
+            "placeholder": "Company name for accessibility"
+          }
+        }
+      }
+    }
+  ]
+}

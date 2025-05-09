@@ -1,0 +1,154 @@
+{
+  "id": "feedback_section",
+  "type": "SharedSlice",
+  "name": "FeedbackSection",
+  "description": "A section displaying testimonials with shared images and multilingual text",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default feedback section with shared images",
+      "imageUrl": "",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title (Default/Fallback)",
+            "placeholder": "Default section title",
+            "allowTargetBlank": true,
+            "multi": "heading6"
+          }
+        },
+        "title_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title (English)",
+            "placeholder": "English section title",
+            "allowTargetBlank": true,
+            "multi": "heading6"
+          }
+        },
+        "title_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title (German)",
+            "placeholder": "German section title",
+            "allowTargetBlank": true,
+            "multi": "heading6"
+          }
+        },
+        "title_mobile": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Mobile Title (Default/Fallback)",
+            "placeholder": "Default mobile title",
+            "allowTargetBlank": true,
+            "multi": "heading4"
+          }
+        },
+        "title_mobile_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Mobile Title (English)",
+            "placeholder": "English mobile title",
+            "allowTargetBlank": true,
+            "multi": "heading4"
+          }
+        },
+        "title_mobile_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Mobile Title (German)",
+            "placeholder": "German mobile title",
+            "allowTargetBlank": true,
+            "multi": "heading4"
+          }
+        }
+      },
+      "items": {
+        "comment": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Comment (Default/Fallback)",
+            "placeholder": "Default testimonial comment",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink,list-item"
+          }
+        },
+        "comment_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Comment (English)",
+            "placeholder": "English testimonial comment",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink,list-item"
+          }
+        },
+        "comment_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Comment (German)",
+            "placeholder": "German testimonial comment",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink,list-item"
+          }
+        },
+        "person_image": {
+          "type": "Image",
+          "config": {
+            "label": "Person Image (Shared)",
+            "constraint": {
+              "width": 128,
+              "height": 128
+            },
+            "thumbnails": []
+          }
+        },
+        "person_name": {
+          "type": "Text",
+          "config": {
+            "label": "Person Name (Default/Fallback)",
+            "placeholder": "Default name of the person"
+          }
+        },
+        "person_name_en": {
+          "type": "Text",
+          "config": {
+            "label": "Person Name (English)",
+            "placeholder": "English name of the person"
+          }
+        },
+        "person_name_de": {
+          "type": "Text",
+          "config": {
+            "label": "Person Name (German)",
+            "placeholder": "German name of the person"
+          }
+        },
+        "person_position": {
+          "type": "Text",
+          "config": {
+            "label": "Person Position (Default/Fallback)",
+            "placeholder": "Default position of the person"
+          }
+        },
+        "person_position_en": {
+          "type": "Text",
+          "config": {
+            "label": "Person Position (English)",
+            "placeholder": "English position of the person"
+          }
+        },
+        "person_position_de": {
+          "type": "Text",
+          "config": {
+            "label": "Person Position (German)",
+            "placeholder": "German position of the person"
+          }
+        }
+      }
+    }
+  ]
+}

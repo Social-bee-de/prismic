@@ -1,0 +1,200 @@
+{
+  "header": {
+    "forRefuges": "For Refugees",
+    "qualificationProgrammes": "Qualification Programs",
+    "jobs": "Jobs",
+    "info": "Info",
+    "loginAcademy": "Login Academy",
+    "forCompanies": "For Companies",
+    "femaleAccelerator": "Female Accelerator",
+    "otherPrograms": "Other Programs",
+    "interculturalReadinessAssessment": "Intercultural Assessment",
+    "candidateLogin": "Candidate Login",
+    "support": "Support",
+    "impactCentre": "Impact Centre",
+    "aboutUs": "About Us",
+    "press": "Press",
+    "career": "Career",
+    "contactUs": "Contact Us",
+    "findJobs": "Find jobs",
+    "banner": "Join us at UNTAPPED 2025, Germany's pioneering HR and business summit in Berlin!",
+    "bannerButtonText": "REQUEST INVITE NOW"
+  },
+  "footer": {
+    "ForAWorld": "For a world where everyone can make it.",
+    "LookingForWork": "LOOKING FOR WORK?",
+    "LookForJobs": "Check out our jobs",
+    "WriteWhatsapp": "Write us on Whatsapp",
+    "CreateOwnImpact": "CREATE YOUR OWN IMPACT",
+    "HireAsACompany": "Hire as a company",
+    "Donate": "Donate online",
+    "Careers": "Careers",
+    "AboutUs": "About us",
+    "OurWork": "OUR WORK",
+    "Press": "Media",
+    "ImpactCenter": "Impact Center",
+    "FollowUs": "FOLLOW US",
+    "Newsletter": "NEWSLETTER",
+    "Subscribe": "Subscribe",
+    "Imprint": "Imprint",
+    "DataPrivacy": "Data Privacy",
+    "Whistleblowing": "Whistleblowing"
+  },
+  "home": {
+    "hero": {
+      "title": "Find jobs. Find talents. Succeed with diversity.",
+      "findJobsTitle": "Find jobs",
+      "findJobsDescription": "Ready to start your career in Germany? We need your talent! We provide training, guidance and access to over 300 employers – all at no cost to you.",
+      "findJobsButton": "Find jobs",
+      "hireTalentTitle": "Hire talent",
+      "hireTalentDescription": "A game changer in Recruiting: Find international talents others overlook! Discover skilled, motivated refugees and migrants who will enrich your team from day one.",
+      "hireTalentButton": "Hire talents",
+      "mobileTitle": "Find jobs. Hire talents. Succeed with diversity.",
+      "mobileDescription": "Join inspiring success stories of refugees, migrants, and companies transforming lives and shaping an inclusive future."
+    },
+    "companiesTrustTitle": "300+ companies trust socialbee",
+    "ourBelief": {
+      "header": "Our belief",
+      "title": "We unleash untapped potential.",
+      "description": "Since 2016, we've been connecting refugees and migrants to the careers they deserve, while partnering with businesses to simplify recruitment, training and integration. Together, we're more than a recruitment solution - we're unlocking potential. We're changing lives. \n \n The result? Empowered teams. Equal opportunities. And a society where everyone can thrive."
+    },
+    "talents": {
+      "info1": "<b>qualified candidates</b>",
+      "info2": "<b>successful job placements</b>",
+      "info3": "<b>retention rate</b>"
+    },
+    "socialbeefundraising": {
+      "header": "socialbee x fundraising",
+      "title": "Make a difference. \nBe the change.",
+      "description": "A job changes everything. It creates a sense of belonging, restores dignity, opens doors and breaks down barriers. Your donation will help refugees like Ikechukwu, Neda and many more rebuild their lives through employment in Germany. Join us in rewriting their stories. ",
+      "button": "Support now"
+    },
+    "socialbeeMedia": "socialbee in the media",
+    "chanceSection": {
+      "title": "Discover talents that \nothers overlook. ",
+      "description": "Hire refugees and migrants who will enrich your team from day one - both professionally and personally. Book your free consultation and meet talented individuals today.",
+      "call": "Schedule a call now"
+    }
+  },
+  "imprint": {
+    "title": "Imprint",
+    "title1": "Information according to §5 TMG",
+    "desc1": "Social-Bee gGmbH<br/>St-Martin-Str. 112<br/>81669 Munich",
+    "title2": "Represented by:",
+    "desc2": "The management Zarah Bruhn and Robert Kratzer",
+    "title3": "Registration:",
+    "desc3": "Registeration court: Munich District Court<br/>Registration number: HRB 224926",
+    "title4": "Professional liability insurance:",
+    "desc4": "Name and insurer registration: Ergo Versicherungs AG, Victoriaplatz 2, 40198 Düsseldorf, Germany<br/>Area of validity: Germany",
+    "boxheader1": "Contact",
+    "boxdesc1": "Phone: +49 89 – 18914481<br/>Email: info@social-bee.de<br/><br/>Applications only online using <a class=\"text-primary-600\" href=\"https://jobs.socialbee.org\">https://jobs.socialbee.org</a>.",
+    "boxheader2": "VAT ID",
+    "boxdesc2": "VAT ID according to §27a Umsatzsteuergesetz (VAT Tax Act):<br/>DE305938330",
+    "boxheader3": "EU dispute resolution",
+    "boxdesc3": "The European Commission provides a platform for online dispute resolution: <a class=\"text-primary-600\" href=\"https://ec.europa.eu/consumers/odr/\">https://ec.europa.eu/consumers/odr/</a>.<br/>You can find our e-mail address in the legal notice above.",
+    "boxheader4": "Consumer dispute resolution/Universal arbitration",
+    "boxdesc4": "We are not willing or obliged to participate in dispute resolution proceedings before a consumer arbitration board.",
+    "boxheader5": "Disclaimer",
+    "boxdesc5": "Social-Bee gGmbH is responsible, as content provider, according to § 7 Abs. 1 Telemediengesetz for own contents, which are held ready for use on www.socialbee.org, according to the general laws. These own contents are to be distinguished from cross-references (“links”) to contents provided by other providers. Through the cross-reference, Social-Bee gGmbH makes third-party content available for use, which is labelled “external” accordingly. This third-party content was checked when the link was first created to determine whether it might give rise to civil or criminal liability. However, it cannot be ruled out that the content is subsequently changed by the respective providers. Social-Bee gGmbH does not constantly check the content to which it refers on its website for changes that could give rise to new liability.<br/>Should you be of the opinion that the linked external pages violate applicable law or otherwise contain inappropriate content, please let us know. We will remove such links immediately.",
+    "boxheader6": "Copyright",
+    "boxdesc6": "The content and works created by the site operators on these pages are subject to German copyright law. Duplication, processing, distribution and any kind of utilisation outside the limits of copyright law require the written consent of the respective author or creator. Downloads and copies of this site are only permitted for private, non-commercial use. Insofar as the content on this site was not created by the operator, the copyrights of third parties are respected. In particular, third-party content is labelled as such. Should you nevertheless become aware of a copyright infringement, please inform us accordingly. If we become aware of any infringements, we will remove such content immediately.",
+    "boxheader7": "Feedback",
+    "boxdesc7": "As a content provider, Social-Bee gGmbH provides a feedback form. The technical implementation of the form is realised by <a class=\"text-primary-600\" href=\"https://ec.europa.eu/consumers/odr/\">Google Forms</a>. Click on the following link to establish a connection to Google.<br/> <a class=\"text-primary-400\" href=\"https://jobs.socialbee.org\">→ Send feedback to socialbee</a>"
+  },
+  "press": {
+    "title": "Press",
+    "carousel": {
+      "title": "Featured in"
+    },
+    "latest": "As seen in",
+    "funnel": {
+      "title": "(re)Write history with us.",
+      "description": "Your contact: Sarah Schilberg, Head of Public Relations",
+      "button": "Send a message"
+    }
+  },
+  "contact": {
+    "section1": {
+      "title": "Get in touch",
+      "desc": "Have questions or suggestions about our integration options, know someone from who deserves a chance, or just want to say “hello”? Send us a message using the contact form and we'll get back to you as soon as possible!",
+      "phone": "+49 89 18914481",
+      "email": "info@social-bee.de",
+      "form": {
+        "firstName": "First name",
+        "lastName": "Last name",
+        "email": "Email",
+        "phone": "Phone",
+        "question": "What do you want to ask us?",
+        "message": "Message"
+      }
+    },
+    "section2": {
+      "title": "You have something to report?",
+      "report": "Whistleblowing reporting",
+      "desc": "Every reported incident will be acknowledged within 7 days and addressed by socialbee within 3 months. These timeframes are set out in the <a href=\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L1937\" class=\"underline\">EU Whistleblowing Directive</a>.",
+      "checkbox": "I agree to be contacted (by phone or email) and for my provided information to be stored.",
+      "privacy": "Your data will be treated confidentially and will not be shared with third parties. For more information, please refer to our <a href=\"https://info.socialbee.org/datenschutz/\" class=\"underline\">privacy policy</a>.",
+      "button": "Send message"
+    },
+    "section3": {
+      "top": "Where to find us",
+      "title": "Our locations",
+      "city": "Munich",
+      "city-desc": "Munich is where we were founded and where more than 50% of our team lives. You can find us in the “Neue Balan” offices. The office is accessible via lift.",
+      "other": "Other locations",
+      "other-desc": "As a remote first company, we’re also present in other German cities. We have colleagues in <b>Berlin</b>, <b>Stuttgart</b>, <b>Hamburg</b>, <b>Frankfurt</b>, <b>Cologne</b>, <b>Ulm</b> and <b>Dresden</b>. If you want to meet someone in person in those cities, send us a message and we’ll arrange a meeting."
+    }
+  },
+  "calendarModal": {
+    "fillForm": "Please fill in the missing fields",
+    "companyEmailError": "Please use a company email address.",
+    "peopleAmountError": "Value must be 2 or bigger",
+    "openButton": "Schedule a call",
+    "backButton": "Back",
+    "header1": "Schedule a meeting – {page} of 3",
+    "title1": "Find tomorrow's talents!",
+    "desc1": "To help us prepare for our get-to-know, we need some information from you. It will only take 2 minutes.",
+    "button1": "Next",
+    "header2": "What would you like to discuss?",
+    "input11": "First Name",
+    "input12": "Last Name",
+    "input13": "Company Email Address",
+    "title2": "What do you want to discuss?",
+    "checkbox2": "I have a hiring need",
+    "select21": "How many people do you want to hire?",
+    "select21option1": "Select",
+    "select22": "Which areas are you looking to hire in?",
+    "select22option1": "Select",
+    "input23": "Where (Location)",
+    "placeholder23": "City and ZIP code",
+    "select24": "What other topics are you interested in?",
+    "select24option1": "Select",
+    "button2": "Schedule meeting",
+    "button3": "Schedule meeting",
+    "areasOptions": {
+      "marketing": "Marketing",
+      "it": "IT",
+      "logistics": "Logistics",
+      "finance": "Finance",
+      "services": "Retail & Services",
+      "projectManagement": "Project Management",
+      "transportation": "Mobility"
+    },
+    "topicsOptions": {
+      "femaleAccelerator": "Female Accelerator",
+      "integrationManagement": "Integration Management",
+      "softskillTrainings": "Soft-Skill Trainings",
+      "diversityWorkshops": "Diversity Workshops",
+      "other": "Other",
+      "none": "None"
+    },
+    "noResults": "No results found",
+    "errorOccurred": "We're experience an issue in the system and are actively working on fixing it.",
+    "contactSupport": "Please try again later and if the issue is still ongoing, write us directly at"
+  },
+    "notFound": {
+      "title": "404 - Page Not Found",
+      "message": "We couldn't find the page you're looking for.",
+      "button": "Go to Home Page"
+    }
+}

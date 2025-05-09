@@ -1,0 +1,244 @@
+{
+  "id": "call_to_action",
+  "type": "SharedSlice",
+  "name": "CallToAction",
+  "description": "A call to action section with image, text, and button (multilingual support with shared image)",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default call to action (centered)",
+      "imageUrl": "",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title (Default/Fallback)",
+            "placeholder": "Default title for the call to action",
+            "allowTargetBlank": true,
+            "multi": "heading2"
+          }
+        },
+        "title_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title (English)",
+            "placeholder": "English title for the call to action",
+            "allowTargetBlank": true,
+            "multi": "heading2"
+          }
+        },
+        "title_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title (German)",
+            "placeholder": "German title for the call to action",
+            "allowTargetBlank": true,
+            "multi": "heading2"
+          }
+        },
+        "paragraph": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Paragraph (Default/Fallback)",
+            "placeholder": "Default paragraph text",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink,list-item"
+          }
+        },
+        "paragraph_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Paragraph (English)",
+            "placeholder": "English paragraph text",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink,list-item"
+          }
+        },
+        "paragraph_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Paragraph (German)",
+            "placeholder": "German paragraph text",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink,list-item"
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Image (Shared)",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "buttonLabel": {
+          "type": "Text",
+          "config": {
+            "label": "Button Label (Default/Fallback)",
+            "placeholder": "Default text for the button"
+          }
+        },
+        "buttonLabel_en": {
+          "type": "Text",
+          "config": {
+            "label": "Button Label (English)",
+            "placeholder": "English text for the button"
+          }
+        },
+        "buttonLabel_de": {
+          "type": "Text",
+          "config": {
+            "label": "Button Label (German)",
+            "placeholder": "German text for the button"
+          }
+        },
+        "buttonLink": {
+          "type": "Link",
+          "config": {
+            "label": "Button Link (Default/Fallback)",
+            "placeholder": "Default link for the button",
+            "allowTargetBlank": true
+          }
+        },
+        "buttonLink_en": {
+          "type": "Link",
+          "config": {
+            "label": "Button Link (English)",
+            "placeholder": "English link for the button",
+            "allowTargetBlank": true
+          }
+        },
+        "buttonLink_de": {
+          "type": "Link",
+          "config": {
+            "label": "Button Link (German)",
+            "placeholder": "German link for the button",
+            "allowTargetBlank": true
+          }
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "alignLeft",
+      "name": "Align Left",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Left-aligned call to action",
+      "imageUrl": "",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title (Default/Fallback)",
+            "placeholder": "Default title for the call to action",
+            "allowTargetBlank": true,
+            "multi": "heading2"
+          }
+        },
+        "title_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title (English)",
+            "placeholder": "English title for the call to action",
+            "allowTargetBlank": true,
+            "multi": "heading2"
+          }
+        },
+        "title_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title (German)",
+            "placeholder": "German title for the call to action",
+            "allowTargetBlank": true,
+            "multi": "heading2"
+          }
+        },
+        "paragraph": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Paragraph (Default/Fallback)",
+            "placeholder": "Default paragraph text",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink,list-item"
+          }
+        },
+        "paragraph_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Paragraph (English)",
+            "placeholder": "English paragraph text",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink,list-item"
+          }
+        },
+        "paragraph_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Paragraph (German)",
+            "placeholder": "German paragraph text",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink,list-item"
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Image (Shared)",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "buttonLabel": {
+          "type": "Text",
+          "config": {
+            "label": "Button Label (Default/Fallback)",
+            "placeholder": "Default text for the button"
+          }
+        },
+        "buttonLabel_en": {
+          "type": "Text",
+          "config": {
+            "label": "Button Label (English)",
+            "placeholder": "English text for the button"
+          }
+        },
+        "buttonLabel_de": {
+          "type": "Text",
+          "config": {
+            "label": "Button Label (German)",
+            "placeholder": "German text for the button"
+          }
+        },
+        "buttonLink": {
+          "type": "Link",
+          "config": {
+            "label": "Button Link (Default/Fallback)",
+            "placeholder": "Default link for the button",
+            "allowTargetBlank": true
+          }
+        },
+        "buttonLink_en": {
+          "type": "Link",
+          "config": {
+            "label": "Button Link (English)",
+            "placeholder": "English link for the button",
+            "allowTargetBlank": true
+          }
+        },
+        "buttonLink_de": {
+          "type": "Link",
+          "config": {
+            "label": "Button Link (German)",
+            "placeholder": "German link for the button",
+            "allowTargetBlank": true
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

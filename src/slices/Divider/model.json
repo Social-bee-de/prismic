@@ -1,0 +1,55 @@
+{
+  "id": "divider",
+  "type": "SharedSlice",
+  "name": "Divider",
+  "description": "A simple horizontal divider line",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default Divider",
+      "primary": {
+        "custom_padding": {
+          "type": "Boolean",
+          "config": {
+            "label": "Use Custom Padding",
+            "default_value": false
+          }
+        },
+        "padding_mobile": {
+          "type": "Text",
+          "config": {
+            "label": "Mobile Padding (px)",
+            "placeholder": "10",
+            "default": "10"
+          }
+        },
+        "padding_desktop": {
+          "type": "Text",
+          "config": {
+            "label": "Desktop Padding (px)",
+            "placeholder": "60",
+            "default": "60"
+          }
+        },
+        "custom_color": {
+          "type": "Boolean",
+          "config": {
+            "label": "Use Custom Color",
+            "default_value": false
+          }
+        },
+        "color": {
+          "type": "Color",
+          "config": {
+            "label": "Divider Color",
+            "placeholder": "Select color"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "id": "process_section",
+  "type": "SharedSlice",
+  "name": "ProcessSection",
+  "description": "A section showing a step-by-step process with an image",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Default Process Section",
+      "primary": {
+        "section_id": {
+          "type": "Text",
+          "config": {
+            "label": "Section ID",
+            "placeholder": "Unique identifier for this section (for anchor links)"
+          }
+        },
+        "header": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Header",
+            "placeholder": "Section header (default language)",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading6"
+          }
+        },
+        "header_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Header (German)",
+            "placeholder": "Section header in German",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading6"
+          }
+        },
+        "header_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Header (English)",
+            "placeholder": "Section header in English",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading6"
+          }
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "Section title (default language)",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "title_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title (German)",
+            "placeholder": "Section title in German",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "title_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title (English)",
+            "placeholder": "Section title in English",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "title_href": {
+          "type": "Link",
+          "config": {
+            "label": "Title Link",
+            "placeholder": "Optional link for the title",
+            "allowTargetBlank": true
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Image",
+            "constraint": {
+              "width": 1200,
+              "height": 800
+            },
+            "thumbnails": []
+          }
+        },
+        "image_alt": {
+          "type": "Text",
+          "config": {
+            "label": "Image Alt Text",
+            "placeholder": "Alternative text for the image (default language)"
+          }
+        },
+        "image_alt_de": {
+          "type": "Text",
+          "config": {
+            "label": "Image Alt Text (German)",
+            "placeholder": "Alternative text for the image in German"
+          }
+        },
+        "image_alt_en": {
+          "type": "Text",
+          "config": {
+            "label": "Image Alt Text (English)",
+            "placeholder": "Alternative text for the image in English"
+          }
+        }
+      },
+      "items": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Step Title",
+            "placeholder": "Title for this process step (default language)",
+            "allowTargetBlank": true,
+            "single": "heading4"
+          }
+        },
+        "title_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Step Title (German)",
+            "placeholder": "Title for this process step in German",
+            "allowTargetBlank": true,
+            "single": "heading4"
+          }
+        },
+        "title_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Step Title (English)",
+            "placeholder": "Title for this process step in English",
+            "allowTargetBlank": true,
+            "single": "heading4"
+          }
+        },
+        "subtitle": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Step Subtitle",
+            "placeholder": "Optional subtitle for this step (default language)",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "subtitle_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Step Subtitle (German)",
+            "placeholder": "Optional subtitle for this step in German",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "subtitle_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Step Subtitle (English)",
+            "placeholder": "Optional subtitle for this step in English",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Step Description",
+            "placeholder": "Description for this process step (default language)",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item"
+          }
+        },
+        "description_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Step Description (German)",
+            "placeholder": "Description for this process step in German",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item"
+          }
+        },
+        "description_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Step Description (English)",
+            "placeholder": "Description for this process step in English",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item"
+          }
+        },
+        "href": {
+          "type": "Link",
+          "config": {
+            "label": "Step Link",
+            "placeholder": "Optional link for this step",
+            "allowTargetBlank": true
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "id": "chance_section",
+  "type": "SharedSlice",
+  "name": "ChanceSection",
+  "description": "A section with a person image and text on a colored background (with multilingual support and shared images)",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default chance section with shared images and multilingual text",
+      "imageUrl": "",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title (Default/Fallback)",
+            "placeholder": "Default title for the section",
+            "allowTargetBlank": true,
+            "multi": "heading2"
+          }
+        },
+        "title_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title (English)",
+            "placeholder": "English title for the section",
+            "allowTargetBlank": true,
+            "multi": "heading2"
+          }
+        },
+        "title_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title (German)",
+            "placeholder": "German title for the section",
+            "allowTargetBlank": true,
+            "multi": "heading2"
+          }
+        },
+        "title_mobile": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title Mobile (Default/Fallback)",
+            "placeholder": "Default mobile title for the section",
+            "allowTargetBlank": true,
+            "multi": "heading1"
+          }
+        },
+        "title_mobile_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title Mobile (English)",
+            "placeholder": "English mobile title for the section",
+            "allowTargetBlank": true,
+            "multi": "heading1"
+          }
+        },
+        "title_mobile_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title Mobile (German)",
+            "placeholder": "German mobile title for the section",
+            "allowTargetBlank": true,
+            "multi": "heading1"
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description (Default/Fallback)",
+            "placeholder": "Default description for the section",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink,list-item"
+          }
+        },
+        "description_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description (English)",
+            "placeholder": "English description for the section",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink,list-item"
+          }
+        },
+        "description_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description (German)",
+            "placeholder": "German description for the section",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink,list-item"
+          }
+        },
+        "person_image": {
+          "type": "Image",
+          "config": {
+            "label": "Person Image (Shared)",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "person_image_alt": {
+          "type": "Text",
+          "config": {
+            "label": "Person Image Alt Text (Default/Fallback)",
+            "placeholder": "Default alternative text for the person image"
+          }
+        },
+        "person_image_alt_en": {
+          "type": "Text",
+          "config": {
+            "label": "Person Image Alt Text (English)",
+            "placeholder": "English alternative text for the person image"
+          }
+        },
+        "person_image_alt_de": {
+          "type": "Text",
+          "config": {
+            "label": "Person Image Alt Text (German)",
+            "placeholder": "German alternative text for the person image"
+          }
+        },
+        "brushes_image": {
+          "type": "Image",
+          "config": {
+            "label": "Brushes Image (Shared)",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "brushes_image_alt": {
+          "type": "Text",
+          "config": {
+            "label": "Brushes Image Alt Text (Default/Fallback)",
+            "placeholder": "Default alternative text for the brushes image"
+          }
+        },
+        "brushes_image_alt_en": {
+          "type": "Text",
+          "config": {
+            "label": "Brushes Image Alt Text (English)",
+            "placeholder": "English alternative text for the brushes image"
+          }
+        },
+        "brushes_image_alt_de": {
+          "type": "Text",
+          "config": {
+            "label": "Brushes Image Alt Text (German)",
+            "placeholder": "German alternative text for the brushes image"
+          }
+        },
+        "bg_color": {
+          "type": "Select",
+          "config": {
+            "label": "Background Color",
+            "placeholder": "CSS class for background color",
+            "options": [
+              "bg-black",
+              "bg-primary-400",
+              "bg-gray-100",
+              "bg-white"
+            ],
+            "default_value": "bg-black"
+          }
+        },
+        "image_position": {
+          "type": "Select",
+          "config": {
+            "label": "Image Position",
+            "placeholder": "Vertical position of the person image",
+            "options": [
+              "top",
+              "bottom"
+            ],
+            "default_value": "top"
+          }
+        },
+        "image_position_opposite_phone": {
+          "type": "Boolean",
+          "config": {
+            "label": "Image Position Opposite on Phone",
+            "placeholder": "Should the image position be reversed on mobile?",
+            "default_value": false
+          }
+        },
+        "title_color": {
+          "type": "Select",
+          "config": {
+            "label": "Title Color",
+            "placeholder": "CSS class for title color",
+            "options": [
+              "text-text-diap-primary",
+              "text-white",
+              "text-black",
+              "text-text-primary"
+            ],
+            "default_value": "text-text-diap-primary"
+          }
+        },
+        "description_color": {
+          "type": "Select",
+          "config": {
+            "label": "Description Color",
+            "placeholder": "CSS class for description color",
+            "options": [
+              "text-text-diap-secondary",
+              "text-white",
+              "text-black",
+              "text-text-secondary"
+            ],
+            "default_value": "text-text-diap-secondary"
+          }
+        },
+        "bg_gradient": {
+          "type": "Boolean",
+          "config": {
+            "label": "Background Gradient",
+            "placeholder": "Add a gradient overlay at the bottom?",
+            "default_value": false
+          }
+        },
+        "no_brushes_image": {
+          "type": "Boolean",
+          "config": {
+            "label": "No Brushes Image",
+            "placeholder": "Hide the brushes image?",
+            "default_value": false
+          }
+        },
+        "section_id": {
+          "type": "Text",
+          "config": {
+            "label": "Section ID",
+            "placeholder": "HTML ID for the section (default: chance-section)"
+          }
+        }
+      },
+      "items": {
+        "content": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Content Item (Default/Fallback)",
+            "placeholder": "Default content item (buttons, links, etc.)",
+            "allowTargetBlank": true,
+            "multi": "paragraph,heading3,heading4,strong,em,hyperlink,list-item,embed"
+          }
+        },
+        "content_en": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Content Item (English)",
+            "placeholder": "English content item (buttons, links, etc.)",
+            "allowTargetBlank": true,
+            "multi": "paragraph,heading3,heading4,strong,em,hyperlink,list-item,embed"
+          }
+        },
+        "content_de": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Content Item (German)",
+            "placeholder": "German content item (buttons, links, etc.)",
+            "allowTargetBlank": true,
+            "multi": "paragraph,heading3,heading4,strong,em,hyperlink,list-item,embed"
+          }
+        }
+      }
+    }
+  ]
+}
